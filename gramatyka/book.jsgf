@@ -1,0 +1,21 @@
+#JSGF V1.0 UTF-8 pl;
+
+grammar book;
+
+public <rezerwuj> = chcialbym zarezerwowac stolik <dzien_rezerwacji> <godzina_rezerwacji> <liczba_osob> ;
+
+<dzien_rezerwacji> = na <dzien> {day};
+
+<dzien> = dzisiaj | jutro | poniedzialek | wtorek | srode | czwartek | piatek | sobote | niedziele;
+
+<godzina_rezerwacji> = na [godzine] <godzina_z_minutami> {hour};
+
+<godzina_z_minutami> = <godzina> [<minuty>];
+
+<godzina> = dziewiata | dziesiata | jedenasta | dwunasta;
+
+<minuty> = pietnascie | trzydziesci;
+
+<liczba_osob> = (na | dla) <liczba> {size} osob;
+
+<liczba> = dwie | dwoch | trzy | trzech | cztery | czterech | piec | pieciu;

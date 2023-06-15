@@ -1,0 +1,19 @@
+#JSGF V1.0 UTF-8 pl;
+
+grammar payment;
+
+public <payment> = <blank>* [<will>] <blank>* [<pay>] <payment_method> [<pay>] <blank>*  [<pay>];
+
+public <payment_req> = <blank>* <which> <blank>* <pay> [<pay>] <blank>*  [<pay>];
+
+<which> = (jakie|jaki|jaka|jakiego|co|ktora|ktory|jakas|jakis|jakiegos|ktorego | polec mi | poleccie mi | zarekomenduj mi | zarekomendujcie mi | daj mi| dajcie mi | zarekomenduj | polec | polecil | polecasz);
+
+<will> = (chcialbym|chce|chcialbym przejsc|poprosze|tak|mam zamiar|czy moge|czy mozesz|jakis|jakiegos|ktorego | polec mi | poleccie mi | zarekomenduj mi | zarekomendujcie mi | daj mi| dajcie mi | zarekomenduj | polec | polecil | polecasz);
+
+<payment_method> = <payment_value> {type};
+
+<payment_value>  = karta|blik|pblikiem|gotowka|pieniedzmi|cashem|hajsem|hajs|karty|czekiem|piwa|wino|wina;
+
+<pay> = (zaplacic|przejsc do platnosci|uregulowac rachunek|rachunek|uregulowac|oplacic|rachunek|przygotowac rachunek|za zamowienie|zaplacic za zamowienie|metody platnosci|platnosc);
+
+<blank> = (swietne|pyszne|pyszna| by|bys| mi| najlepszy| najlepsza|dobra |cos | cos do| dobre | smaczna | smaczne | smacznego | dobrego | pysznego | swietnego | fajne | fajnego | najlepsze | najlepszego | genialne | zajebista| zajebiste | top | siema | czesc | dzien dobry | witam | siemano | siemanko | Pan | pan | ty|sa|tak);

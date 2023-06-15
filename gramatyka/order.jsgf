@@ -1,0 +1,23 @@
+#JSGF V1.0 UTF-8 pl;
+
+grammar order;
+
+public <zamow_danie> = <przywitanie>* ((( chcialbym | chcialabym | chce ) zamowic) | poprosze | zamawiam | przynies mi | prosze ) <danie>;
+public <zamow_napoj> =  <przywitanie>* ((( chcialbym | chcialabym | chce ) zamowic) | poprosze | zamawiam | przynies mi | prosze ) <napoj>;
+public <zamow_danie_i_napoj> = <przywitanie>* ((( chcialbym | chcialabym | chce ) zamowic) | poprosze | zamawiam | przynies mi | prosze ) <danie> <spojnik> <napoj>;
+
+<przywitanie> = (dzien dobry | witam | czesc);
+
+<danie> = (pizze peperoni | spaghetti carbonara | burger szefa | burgera szefa |
+pizze margherita | spaghetti bolognese | burger wegetarianski | burgera wegetarianskiego | 
+pizze capricciosa | spaghetti aglio e olio | burger z karmelizowana cebula | burgera z karmelizowana cebula |
+pizze quattro formaggi | spaghetti alle vongole | burger z grzybami i serem |
+pizze hawajska | spaghetti alla puttanesca | burger z klasycznymi dodatkami | burgera z klasycznymi dodatkami |
+pizze funghi | spaghetti al pesto | burger z sosem BBQ | burgera z sosem BBQ |
+pizze diavola | spaghetti alla marinara | burger z krewetkami i awokado | burgera z krewetkami i awokado |
+pizze prosciutto e funghi | spaghetti alla carbonara | burger z jalapenos i serem | burger z jalapeno i serem) {food};
+
+<napoj> = (cola | cole | lemoniada | lemoniade | woda gazowana | wode gazowana | woda niegazowana | wode niegazowana | kawa | kawe | herbata | herbate | sok pomaranczowy | sok jablkowy | piwo | wino czerwone | wino biale) {drink};
+
+<spojnik> = i | oraz | a do tego;           
+  

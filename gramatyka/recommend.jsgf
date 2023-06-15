@@ -1,0 +1,20 @@
+#JSGF V1.0 UTF-8 pl;
+
+grammar recommend;
+
+public <polec_1> = <blank>* <which> <blank>* <food> [<suggest>] <blank>*  [<suggest>];
+public <polec_2> = <blank>* <which> <blank>* <drink> <blank>* [<suggest>];
+
+<which> = (jakie|jaki|jaka|jakiego|co|ktora|ktory|jakas|jakis|jakiegos|ktorego | polec mi | poleccie mi | zarekomenduj mi | zarekomendujcie mi | daj mi| dajcie mi | zarekomenduj | polec | polecil | polecasz);
+
+<drink> = <drink_value> {drink};
+
+<drink_value>  = napoj|napoje|picie|picia|sok|soki|herbata|herbate|herbaty|piwo|piwa|wino|wina;
+
+<food> = <food_value> {food};
+
+<food_value> = pizza|pizze|makaron|makarony|salatka|salatke|salatki|salatke|burger|burgera|deser|desery;
+
+<suggest> = (polecasz|sugerujesz|macie|masz|jest|sa|polecacie|sugerujecie);
+
+<blank> = (swietne|pyszne|pyszna| by|bys| mi| najlepszy| najlepsza|dobra |cos | cos do| dobre | smaczna | smaczne | smacznego | dobrego | pysznego | swietnego | fajne | fajnego | najlepsze | najlepszego | genialne | zajebista| zajebiste | top | siema | czesc | dzien dobry | witam | siemano | siemanko | Pan | pan | ty);

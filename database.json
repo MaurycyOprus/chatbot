@@ -1,0 +1,389 @@
+{
+   "database":{
+      "food":[
+         {
+            "name":"lody",
+            "type":"deser",
+            "price":"17",
+            "ingredients": "3 galki podane z bita smietana"
+         },
+         {
+            "name":"sernik",
+            "type":"deser",
+            "price":"19",
+            "ingredients":"na spodzie korzennym, z owocami sezonowymi i sosem pomaranczowym"
+         },
+         {
+            "name":"brownie",
+            "type":"deser",
+            "price":"19",
+            "ingredients":"z opalana beza, wisnie na cieplo z cynamonem, owoce sezonowe"
+         },
+         {
+            "name":"salatka cezar",
+            "type":"salatka",
+            "price":"30",
+            "ingredients": "salata rzymska, grzanki, ser Parmezan, sos Cezar"
+         },
+         {
+            "name":"salatka z kozim serem",
+            "type":"salatka",
+            "price":"34",
+            "ingredients":"kozi ser, pestki dyni, granat, gruszka, pomidorki cherry, winogrono, rzodkiewka, arbuz, mix salat, sos vinegrette"
+         },
+         {
+            "name":"salatka z grillowanym kurczakiem",
+            "type":"salatka",
+            "price":"30",
+            "ingredients":"grillowany kurczak, pomidorki cherry, truskawki, granat, melon, ogre, mix salat, sos vinegrette"
+         },
+         {
+            "name":"salatka grecka",
+            "type":"salatka",
+            "price":"31",
+            "ingredients":"salata mieszana, pomidory, ogorki, cebula, oliwki, ser feta"
+         },
+         {
+            "name":"spaghetti bolognese",
+            "type":"makaron",
+            "price":"23",
+            "ingredients":"mieso mielone, pomidory, cebula, czosnek"
+         },
+         {
+            "name":"spaghetti aglio e olio",
+            "type":"makaron",
+            "price":"23",
+            "ingredients":"czosnek, oliwa z oliwek, natka pietruszki, ser emilgrana, papryka peperoni"
+         },
+         {
+            "name":"tagliatelle crudo",
+            "type":"makaron",
+            "price":"34",
+            "ingredients":"szynka parmenska, feta, gorgonzola, pomidorki cherry, rukola, cebula, czosnek, oliwa, papryczka peperoni, ser emilgrana"
+         },
+         {
+            "name":"spaghetti carbonara",
+            "type":"makaron",
+            "price":"23",
+            "ingredients":"boczek, zoltko, ser emilgrana, smietana, natka pietruszki, cebula, czosnek"
+         },
+         {
+            "name":"krem z pomidorow pelati",
+            "type":"zupa",
+            "price":"12",
+            "ingredients": "pomidory, cebula, czosnek, smietana"
+         },
+         {
+            "name":"zupa cebulowa",
+            "type":"zupa",
+            "price":"12",
+            "ingredients":  "wino biale, tymianek, cebula, ser mimolette, grzanka"
+         },
+         {
+            "name":"gnocchi",
+            "type":"danie",
+            "price":"12",
+            "ingredients":  "kurczak, pomidorki cherry, zielone szparagi, cukinia, rukola, czosnek, cebula, sos smietanowo-bazyliowy"
+         },
+         {
+            "name":"roladki z kurczaka",
+            "type":"danie",
+            "price":"12",
+            "ingredients":  "roladki z kurczaka owiniete szynka dojrzewajaca, faszerowane gorgonzola i szpinakiem, pieczone ziemniaki w zaprawie ziolowej, grillowane warzywa"
+         },
+         {
+            "name":"kotlet schabowy",
+            "type":"danie",
+            "price":"31",
+            "ingredients":"mieso mielone, bulka tarta, jajko, przyprawy"
+         },
+         {
+            "name":"filet z dorsza",
+            "type":"danie",
+            "price":"40",
+            "ingredients":"losos, oliwa z oliwek, cytryna, przyprawy"
+         },
+         {
+            "name":"margherita",
+            "type":"pizza",
+            "price":"22",
+            "ingredients": "sos pomidorowy, ser mozzarella, bazylia"
+         },
+         {
+            "name":"capricciosa",
+            "type":"pizza",
+            "price":"23",
+            "ingredients":"sos pomidorowy, mozzarella, szynka, pieczarki, oregano"
+         },        
+         {
+            "name":"vegetariana",
+            "type":"pizza",
+            "price":"26",
+            "ingredients":"sos pomidorowy, mozzarella, warzywa (papryka, cebula, pomidory, pieczarki), oregano"
+         },
+         {
+            "name":"hawajska",
+            "type":"pizza",
+            "price":"27",
+            "ingredients":"sos pomidorowy, mozzarella, szynka, ananas, oregano"
+         },     
+         {
+            "name":"peperoni",
+            "type":"pizza",
+            "price":"28",
+            "ingredients":"sos z pomidorow pelati, mozzarella, salami, papryczka peperoni"
+         },         
+         {
+            "name":"prosciutto e funghi",
+            "type":"pizza",
+            "price":"28",
+            "ingredients":"sos z pomidorow pelati, mozzarella, polska szynka wieprzowa, pieczarki"
+         },
+         {
+            "name":"napoli",
+            "type":"pizza",
+            "price":"29",
+            "ingredients":"sos z pomidorow pelati, mozzarella, tunczyk, czarne oliwki, kapary, cebula"
+         },
+         {
+            "name":"spinaci",
+            "type":"pizza",
+            "price":"29",
+            "ingredients":"sos z pomidorow pelati, mozzarella, szpinak, czosnek, ser emilgrana"
+         },        
+         {
+            "name":"tre carne",
+            "type":"pizza",
+            "price":"30",
+            "ingredients":"sos smietanowy, mozzarella, polska szynka wieprzowa, salami, boczek, cebula"
+         },
+         {
+            "name":"chorizo",
+            "type":"pizza",
+            "price":"33",
+            "ingredients":"sos z pomidorow pelati, mozzarella, chorizo, jalapeno, czerwona cebula"
+         },     
+         {
+            "name":"prosciutto e rucola",
+            "type":"pizza",
+            "price":"33",
+            "ingredients":"sos z pomidorow pelati, mozzarella, szynka parmenska, rukola"
+         },         
+         {
+            "name":"prosciutto Pomodoro",
+            "type":"pizza",
+            "price":"37",
+            "ingredients":"sos z pomidorow pelati, mozzarella, szynka parmenska, rukola, pomidorki cherry, ser emilgrana"
+         },
+         {
+            "name":"siciliana",
+            "type":"pizza",
+            "price":"33",
+            "ingredients":"zielone pesto, mozzarella Cammino DOro, wloskie pomidory marynowane w oliwie z ziolami, listki bazylii, swiezy pieprz"
+         }, 
+         {
+            "name":"nolita",
+            "type":"pizza",
+            "price":"34",
+            "ingredients":"sos z pomidorow pelati, mozzarella Cammino D'Oro, salami piccante spianata, swieza bazylia"
+         },         
+         {
+            "name":"parma e pera",
+            "type":"pizza",
+            "price":"37",
+            "ingredients":"sos smietanowy, mozzarella Cammino DOro, szynka parmenska, gruszka, gorgonzola, orzechy wloskie, miod, rukola"
+         },
+         {
+            "name":"romana",
+            "type":"pizza",
+            "price":"33",
+            "ingredients":"olio extra vergine di oliva, mozzarella Cammino DOro, chorizo, papryka Napoletane Peperoni marynowana w oliwie z ziolami, wloskie karczochy, listki bazylii"
+         }, 
+         {
+            "name":"calabrese",
+            "type":"pizza",
+            "price":"34",
+            "ingredients":"sos z pomidorow pelati, mozzarella Cammino DOro, pikantna wloska kielbasa Nduja, ricotta, rukola"
+         },         
+         {
+            "name":"bar a verde",
+            "type":"pizza",
+            "price":"38",
+            "ingredients":"sos smietanowy, mozzarella Cammino DOro, speck, zielone szparagi, gorgonzola, cukinia, ricotta"
+         },
+         {
+            "name":"quattro formaggi",
+            "type":"pizza",
+            "price":"40",
+            "ingredients":"olio extra vergine di oliva, mozzarella Cammino DOro, chorizo, papryka Napoletane Peperoni marynowana w oliwie z ziolami, wloskie karczochy, listki bazylii"
+         },                
+         {
+            "name":"frittata",
+            "type":"sniadanie",
+            "price":"19",
+            "ingredients":"jajka, pomidor, ser kozi, liscie szpinaku, cebula dymka, cukinia, bazylia, buleczki naszej produkcji"
+         },                
+         {
+            "name":"szakszuka",
+            "type":"sniadanie",
+            "price":"19",
+            "ingredients":"pomidory pelati, jajka, papryka peperoni, czerwona cebula, czosnek, bazylia, rukola, buleczki naszej produkcji"
+         },                
+         {
+            "name":"jajecznica",
+            "type":"sniadanie",
+            "price":"19",
+            "ingredients":"do wyboru klasyczna, z szynka lub boczkiem / podana z buleczkami naszej produkcji"
+         }
+      ],
+      "drink":[
+         {
+            "name":"kawa biala",
+            "price":"9",
+            "type":"kawa"
+         },
+         {
+            "name":"kawa czarna",
+            "price":"9",
+            "type":"kawa"
+         },
+         {
+            "name":"kawa latte",
+            "price":"9",
+            "type":"kawa"
+         },
+         {
+            "name":"herbata biala",
+            "price":"7",
+            "type":"herbata"
+         },
+         {
+            "name":"herbata zielona",
+            "price":"7",
+            "type":"herbata"
+         },
+         {
+            "name":"herbata czarna",
+            "price":"7",
+            "type":"herbata"
+         },
+         {
+            "name":"cola",
+            "price":"9",
+            "type":"cola"
+         },
+         {
+            "name":"pepsi",
+            "price":"8",
+            "type":"cola"
+         },
+         {
+            "name":"sok pomaranczowy",
+            "price":"6",
+            "type":"sok"
+         },
+         {
+            "name":"sok multiwitamina",
+            "price":"6",
+            "type":"sok"
+         },
+         {
+            "name":"sok porzeczkowy",
+            "price":"6",
+            "type":"sok"
+         },
+         {
+            "name":"woda gazowana",
+            "price":"4",
+            "type":"woda"
+         },
+         {
+            "name":"woda niegazowana",
+            "price":"4",
+            "type":"woda"
+         },
+         {
+            "name":"piwo jasne",
+            "price":"11",
+            "type":"piwo"
+         },
+         {
+            "name":"piwo ciemne",
+            "price":"12",
+            "type":"piwo"
+         },
+         {
+            "name":"wino czerwone",
+            "price":"19",
+            "type":"wino"
+         },
+         {
+            "name":"wino biale",
+            "price":"19",
+            "type":"wino"
+         },
+         {
+            "name":"koktajl owocowy",
+            "price":"25",
+            "type":"sok"
+         },
+         {
+            "name":"lemoniada",
+            "price":"13",
+            "type":"sok"
+         }
+      ],
+      "sauce":[
+         {
+            "name":"sos pomidorowy",
+            "price":"2",
+            "type":"sos"
+         },
+         {
+            "name":"sos czosnkowy",
+            "price":"2",
+            "type":"sos"
+         },
+         {
+            "name":"sos bbq",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos tatarski",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos meksykanski",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos aioli",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos smietanowo-koperkowy",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos pikantny",
+            "price":"3",
+            "type":"sos"
+         },
+         {
+            "name":"sos curry",
+            "price":"5",
+            "type":"sos"
+         },
+         {
+            "name":"sos holenderski",
+            "price":"7",
+            "type":"sos"
+         }
+      ]
+   }
+}
