@@ -7,15 +7,15 @@ def load_grammar():
     gram_dir = './gramatyka/'
     grammar_files = [file for file in listdir(gram_dir) if isfile(join(gram_dir, file))]
 
-    grammars = []
+    grammars_list = []
 
     print(grammar_files)
     for grammarFile in grammar_files:
         print(grammarFile)
         grammar = jsgf.parse_grammar_file(gram_dir + grammarFile)
-        grammars.append(grammar)
+        grammars_list.append(grammar)
 
-    return grammars
+    return grammars_list
 
 
 grammars = load_grammar()

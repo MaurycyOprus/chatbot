@@ -12,7 +12,7 @@ public <payment_req> = <blank>* <which> <blank>* <pay> [<pay>] <blank>*  [<pay>]
 
 <payment_method> = <payment_value> {type};
 
-<payment_value>  = karta|blik|pblikiem|gotowka|pieniedzmi|cashem|hajsem|hajs|karty|czekiem|piwa|wino|wina;
+<payment_value>  = karta|blik|blikiem|gotowka|pieniedzmi|cashem|hajsem|hajs|karty|czekiem|piwa|wino|wina;
 
 <pay> = (zaplacic|przejsc do platnosci|uregulowac rachunek|rachunek|uregulowac|oplacic|rachunek|przygotowac rachunek|za zamowienie|zaplacic za zamowienie|metody platnosci|platnosc);
 

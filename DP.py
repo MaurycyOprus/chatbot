@@ -6,9 +6,10 @@ import json
 class DP:
     @staticmethod
     def update_bot(act, slots):
-        type_name = next(iter(slots[act]))
-        name_val = slots[act][next(iter(slots[act]))]
-        name = None
+        if act != "null":
+            type_name = list(slots[act])[-1]
+            name_val = slots[act][list(slots[act])[-1]]
+            name = None
         if act == "order":
             return {"sys_act": "order", "type": type_name, "value": name}
 
@@ -21,6 +22,14 @@ class DP:
                 name = "salatka"
             if name_val in ["deser", "desery"]:
                 name = "deser"
+            if name_val in ["sok", "soki"]:
+                name = "sok"
+            if name_val in ["herbata", "herbaty", "herbate"]:
+                name = "makaron"
+            if name_val in ["piwo", "piwa"]:
+                name = "piwo"
+            if name_val in ["wino", "wina"]:
+                name = "wino"
             return {"sys_act": "recommend", "type": type_name, "value": name}
 
         # elif act == "book":
